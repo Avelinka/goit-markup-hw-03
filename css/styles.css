@@ -86,13 +86,11 @@ img {
 }
 /*----------Logo----------*/
 
-.header-logo,
-.footer-logo {
+.header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris-color);
@@ -116,6 +114,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
+  display: block;
   padding: 24px 0;
 }
 
@@ -133,15 +132,15 @@ img {
 .header-address-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-address-link {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-color);
+  display: block;
+  padding: 24px 0;
 }
 
 .header-address-link:hover,
@@ -159,7 +158,6 @@ img {
 }
 
 .hero-title {
-  text-decoration: none;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -173,7 +171,6 @@ img {
 .hero-btn {
   background-color: var(--iris-color);
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -183,11 +180,11 @@ img {
   cursor: pointer;
   border: none;
   border-radius: 4px;
-  margin: auto;
+  margin: 0 auto;
   display: block;
   min-width: 169px;
   height: 56px;
-  padding: 16px 32px;
+  /* padding: 16px 32px; */
 }
 
 .hero-btn:hover,
@@ -323,7 +320,14 @@ img {
   padding: 100px 0;
 }
 
-.footer-link {
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris-color);
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -359,7 +363,6 @@ img {
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
